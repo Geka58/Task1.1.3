@@ -12,7 +12,7 @@ public class Util {
     private static final String PASSWORD = "root";
 
 
-    public static Connection getConnection(){
+    public static Connection getConnection() {
         Connection connection = null;
         try {
             Class.forName(DRIVE);
